@@ -1,0 +1,1 @@
+create table airport_data(id bigserial not null,extract_date timestamp with time zone not null, report_period timestamp with time zone not null,terminal varchar(255) not null, arrival_departure varchar(255) not null, domestic_international varchar(255) not null, passenger_count int8 not null);

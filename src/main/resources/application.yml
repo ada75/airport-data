@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: airport-data
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/airport-data
+    username: airport-data
+    password: airport-data
+  sql:
+    init:
+      platform: POSTGRESQL
+
+logging:
+  level:
+    root: INFO
